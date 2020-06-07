@@ -15,6 +15,8 @@ namespace Tests
 		public Form1()
 		{
 			InitializeComponent();
+			Logger.Logger.Initialize();
+			Logger.Logger.Log("test");
 		}
 	}
 }
